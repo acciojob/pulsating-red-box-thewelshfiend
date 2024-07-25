@@ -9,7 +9,7 @@ body {
     display: grid;
     place-items: center;
 }
-#box {
+.box {
     width: 100px;
     height: 100px;
     background-color: red;
