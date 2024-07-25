@@ -13,7 +13,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: red;
-    animation: pulse 0.5s infinite ease-in-out alternate-reverse;
+    animation: pulse 1s infinite ease-in-out alternate-reverse;
 }
 @keyframes pulse {
     0% {
