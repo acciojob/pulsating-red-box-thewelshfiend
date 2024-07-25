@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 30vh;
+    display: grid;
+    place-items: center;
+}
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: pulse 0.5s infinite ease-in-out alternate-reverse;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
